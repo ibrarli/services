@@ -1,6 +1,6 @@
-# Apen Apps Tools (`tools.apenapps.com`)
+# Apen Services (`services.apenapps.com`)
 
-A centralized, professional hub for utility tools developed by **Apen Apps**, such as Resume Builder and Visa Doc. Built using a strict, shadow-free, modern minimalist design aesthetic with fluid components engineered for instant workflows.
+A centralized, professional hub for custom software architecture, enterprise engineering, and bespoke digital solutions developed by **Apen Apps**. Built using a strict, shadow-free, modern minimalist design aesthetic with fluid components engineered for seamless client engagement.
 
 ---
 
@@ -16,7 +16,8 @@ A centralized, professional hub for utility tools developed by **Apen Apps**, su
 
 The application strictly implements a flat utility system directly coupled with Google-style structural properties:
 
-*   **Primary Accent:** `#E7B339` (Gold)
+*   **Primary Accent:** `#3CC68A` (Services Emerald Green)
+*   **Secondary Accent:** `#E7B339` (Gold)
 *   **Light Theme Background:** `#FFFFFF`
 *   **Dark Theme Background:** `#171717` (True Deep Dark Neutral)
 *   **Border Radius:** Modern, rounded-container shapes (`rounded-xl` / `rounded-2xl`)
@@ -29,16 +30,16 @@ The application strictly implements a flat utility system directly coupled with 
 ```text
 ├── app/
 │   ├── layout.tsx       # Core root configuration (Fonts optimization & wrappers)
-│   ├── page.tsx         # Main dynamic tools platform view
+│   ├── page.tsx         # Main dynamic services platform view
 │   └── globals.css      # Consolidated centralized CSS & Tailwind configuration
 ├── components/
 │   ├── global/
 │   │   ├── Navbar.tsx   # Dual-theme top navigation layout header
 │   │   └── Footer.tsx   # Simplified automated copyright block
 │   └── home/
-│       ├── Header.tsx   # Marketing introduction engine
-│       ├── Filters.tsx  # Multi-category client action controls
-│       └── ToolCard.tsx # Unified grid listing container interface
+│       ├── Header.tsx   # Enterprise marketing introduction engine
+│       ├── Filters.tsx  # Service domain client action controls
+│       └── ServiceCard.tsx # Unified grid listing container interface
 ```
 
 ## 🛠️ Getting Started
